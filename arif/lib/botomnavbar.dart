@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 void main(){
-  runApp(KomikIndo());
+  runApp(MyApp());
 }
 
-class KomikIndo extends StatelessWidget {
-  const KomikIndo({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
