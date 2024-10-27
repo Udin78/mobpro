@@ -5,7 +5,7 @@ void main(){
 }
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-  
+
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomePage(),
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
-  
+
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -27,15 +27,15 @@ class HomePage extends StatelessWidget {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text(""
                     "Hapus produk berhasil",
-                style: TextStyle(
-                  color: Colors.black,
-                ),
+                  style: TextStyle(
+                    color: Colors.black,
+                  ),
                 ),
                   action: SnackBarAction(
-                      label: "CANCEL",
-                      onPressed: (){
-                        print("TIDAK JADI HAPUS PRODUK");
-                      },
+                    label: "CANCEL",
+                    onPressed: (){
+                      print("TIDAK JADI HAPUS PRODUK");
+                    },
                     textColor: Colors.red,
                   ),
                   backgroundColor: Colors.amber,
