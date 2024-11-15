@@ -1,4 +1,4 @@
-import 'package:arif/dialog.dart';
+import 'package:arif/stateless vs statefull/dialog.dart';
 import 'package:flutter/material.dart';
 void main(){
   runApp(MyApp());
