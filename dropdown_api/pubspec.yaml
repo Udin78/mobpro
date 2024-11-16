@@ -1,4 +1,4 @@
-name: arif
+name: dropdown_api
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -28,21 +28,15 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  intl : ^0.19.0
-  faker : ^2.2.0
-  convex_bottom_bar : ^3.2.0
-  avatar_glow : ^3.0.1
   flutter:
     sdk: flutter
-  http: ^1.2.2
-  introduction_screen : ^3.1.14
-  lottie : ^1.2.1
-  dropdown_search: ^6.0.1
+  dropdown_search: ^5.0.2
+  http : ^1.2.2
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-
 
 dev_dependencies:
   flutter_test:
@@ -67,29 +61,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-  - assets/lotties/login.json
-  - assets/lotties/pp.json
-  - gambar/fan.jpg
-  - gambar/add.jpg
-  - gambar/home.jpg
-  - gambar/instagram-reels.jpg
-  - gambar/menu.jpg
-  - gambar/post.jpg
-  - gambar/search.jpg
-  - gambar/tag.jpg
-  - gambar/arif.jpg
-  - gambar/arif1.jpg
-  - gambar/arif2.jpg
-  - gambar/arif3.jpg
-  - gambar/arif4.jpg
-  - gambar/shopping-bag.png
-  - gambar/post-1.jpg
-  - gambar/post-2.jpg
-  - gambar/post-3.jpg
-  - gambar/post-4.jpg
-  - gambar/post-5.jpg
-  - gambar/post-6.jpg
+  # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
